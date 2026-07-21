@@ -228,8 +228,8 @@
 
   function prepareCounters() {
     const statMap = [
-      { text: "50+", value: "50", suffix: "+" },
-      { text: "98%", value: "98", suffix: "%" },
+      { text: "21+", value: "21", suffix: "+" },
+      { text: "92%", value: "92", suffix: "%" },
       { text: "24/7", value: "24", suffix: "/7" },
     ];
 
