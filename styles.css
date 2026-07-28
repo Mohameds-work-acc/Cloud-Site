@@ -498,7 +498,6 @@ body {
 
 .footer-legal {
   color: rgba(255, 255, 255, 0.82);
-  display: grid;
   gap: 0.3rem;
   line-height: 1.55;
   margin-inline: auto;
