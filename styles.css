@@ -496,6 +496,25 @@ body {
   transform: translateX(0.15rem);
 }
 
+.footer-legal {
+  color: rgba(255, 255, 255, 0.82);
+  display: grid;
+  gap: 0.3rem;
+  line-height: 1.55;
+  margin-inline: auto;
+  max-width: 52rem;
+}
+
+.footer-legal p {
+  margin: 0;
+}
+
+@media (max-width: 639px) {
+  .footer-legal-separator {
+    display: none;
+  }
+}
+
 .social {
   align-items: center;
   background: rgba(255, 255, 255, 0.95);
