@@ -508,6 +508,55 @@ body {
   margin: 0;
 }
 
+html[dir="rtl"] body {
+  font-family: "Cairo", "Tahoma", sans-serif;
+  text-align: right;
+}
+
+html[dir="rtl"] .tracking-wide,
+html[dir="rtl"] .tracking-wider,
+html[dir="rtl"] .tracking-\[0\.18em\],
+html[dir="rtl"] .tracking-\[0\.2em\],
+html[dir="rtl"] .tracking-\[0\.22em\],
+html[dir="rtl"] .tracking-\[0\.24em\],
+html[dir="rtl"] .tracking-\[0\.25em\] {
+  letter-spacing: 0;
+}
+
+html[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+html[dir="rtl"] .footer-section a:hover {
+  transform: translateX(-0.15rem);
+}
+
+html[dir="rtl"] .group-hover\:translate-x-1 {
+  --tw-translate-x: -0.25rem;
+}
+
+html[dir="rtl"] #home .max-w-2xl,
+html[dir="rtl"] #about .max-w-2xl,
+html[dir="rtl"] #compliance .max-w-2xl {
+  text-align: right;
+}
+
+html[dir="rtl"] .faq-row summary {
+  padding-left: 3.5rem;
+  padding-right: 1.5rem;
+}
+
+html[dir="rtl"] .faq-row summary::after {
+  left: 1.2rem;
+  right: auto;
+}
+
+@media (min-width: 640px) {
+  html[dir="rtl"] .sm\:text-left {
+    text-align: right;
+  }
+}
+
 @media (max-width: 639px) {
   .footer-legal-separator {
     display: none;
