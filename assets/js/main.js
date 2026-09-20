@@ -226,10 +226,22 @@
     counters.forEach((counter) => observer.observe(counter));
   }
 
+  function initFaqToggles() {
+    document.querySelectorAll(".faq-row").forEach((details) => {
+      const summary = details.querySelector("summary");
+      if (!summary) return;
+
+      summary.addEventListener("click", (event) => {
+        event.preventDefault();
+        details.open = !details.open;
+      });
+    });
+  }
+
   function prepareCounters() {
     const statMap = [
       { text: "21+", value: "21", suffix: "+" },
-      { text: "92%", value: "92", suffix: "%" },
+      { text: "97%", value: "97", suffix: "%" },
       { text: "24/7", value: "24", suffix: "/7" },
     ];
 
@@ -251,6 +263,7 @@
     animateHero();
     initSoftParallax();
     initCounters();
+    initFaqToggles();
     initMagneticButtons();
     initTiltCards();
   });

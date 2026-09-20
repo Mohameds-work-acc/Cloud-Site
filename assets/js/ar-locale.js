@@ -27,6 +27,9 @@
     "in Saudi Arabia": "في المملكة العربية السعودية",
     "Every client's risk profile is different. We work with leading local and global insurers to assess exposure, structure customized, CCHI-compliant coverage, and negotiate optimized pricing on your behalf. Using technology, data analytics, and ongoing gap analysis, we continuously identify efficiency opportunities most brokers miss. From SMEs and large enterprises to semi-government and government entities, our team ensures you get the right coverage at the right price, with transparent terms and ongoing support.": "يختلف ملف المخاطر لدى كل عميل ولهذا نعمل مع نخبة من شركات التأمين المحلية والعالمية لتقييم مستوى التعرض للمخاطر، وتصميم تغطيات مخصّصة ومتوافقة مع متطلبات مجلس الضمان الصحي، والتفاوض للحصول على أفضل الأسعار نيابة عنكم. ومن خلال التقنية وتحليل البيانات وتقييم الفجوات بشكل مستمر نحدد فرص الكفاءة التي لا يلاحظها معظم الوسطاء. يدعم فريقنا المنشآت الصغيرة والمتوسطة والكبرى والجهات شبه الحكومية والحكومية، لضمان حصولكم على التغطية المناسبة بالسعر المناسب بشفافية كاملة ودعم مستمر طوال العام.",
     "With our industry expertise and commitment to service excellence, we help you navigate complex regulations and protect what matters most. Whether you're looking to insure your workforce, property, cargo, or entire business or public-sector operations, we deliver solutions that drive cost efficiency and business continuity.": "وبفضل خبرتنا في القطاع والتزامنا بمعايير الخدمة نساعدكم على التعامل مع الأنظمة المعقدة وحماية ما يهمكم. سواء كنتم تبحثون عن تأمين الموظفين أو الممتلكات أو البضائع أو العمليات التشغيلية للقطاعين الخاص والعام، فإننا نقدّم حلولاً تعزز كفاءة التكلفة واستمرارية الأعمال.",
+    "At Cloud Insurance Brokers, we provide risk management and insurance brokerage solutions tailored to businesses, semi-government, and government entities across Saudi Arabia. We are best known for corporate health coverage, contractor and property protection, and logistics and aviation insurance.": "في كلاود نقدّم حلول إدارة المخاطر والوساطة التأمينية المصممة خصيصاً للشركات والجهات شبه الحكومية والحكومية في المملكة العربية السعودية. نشتهر بتقديم تغطيات التأمين الصحي للشركات، وحماية المقاولين والممتلكات، وتأمين اللوجستيات والطيران.",
+    "Our goal": "هدفنا",
+    "Safeguard your people, assets & operations": "حماية موظفيكم، أصولكم، وعملياتكم",
     "Years Experience": "سنة خبرة",
     "Insurance Partners": "شريك تأميني",
     "Client Retention": "نسبة الاحتفاظ بالعملاء",
@@ -77,12 +80,16 @@
     "Get a Quote": "اطلب عرض سعر",
     "How We Deliver Insurance Solutions That Work": "كيف نقدّم حلول تأمينية تعمل فعليًا",
     "Our approach starts with understanding your business risks and delivering policies that genuinely protect you. We simplify the entire process, ensuring you get the right coverage with less complexity.": "يبدأ نهجنا بفهم مخاطر أعمالكم وتصميم وثائق تأمين تمنحكم حماية حقيقية. نُبسّط العملية بالكامل لضمان حصولكم على التغطية المناسبة بأقل قدر من التعقيد.",
+    "Our approach starts with understanding your business risks and delivering policies that genuinely protect you. We simplify the entire process, ensuring you get the right coverage with minimal hassle. Our simple 3-step process keeps the journey clear, efficient, and cost-conscious.": "يبدأ نهجنا بفهم مخاطر أعمالكم وتصميم وثائق تأمين تمنحكم حماية حقيقية. نُبسّط العملية بالكامل لضمان حصولكم على التغطية المناسبة بأقل قدر من التعقيد. يعتمد نموذجنا على ثلاث خطوات واضحة تحافظ على سير الرحلة بكفاءة ووضوح ووعي بالتكلفة.",
     "Risk Assessment & Consultation": "تقييم المخاطر والاستشارة",
     "We analyze risk exposure and identify operational and financial priorities.": "نقوم بتحليل مستوى التعرض للمخاطر وتحديد الأولويات التشغيلية والمالية.",
+    "We analyze your exposures and priorities.": "نقوم بتحليل مستوى التعرض للمخاطر وتحديد الأولويات التشغيلية والمالية.",
     "Customized Policy Design": "تصميم وثيقة تأمين مخصّصة",
     "We build insurance packages aligned with your business and budget.": "نقدّم باقات تأمينية مصممة لتتوافق مع طبيعة أعمالكم وميزانيتكم.",
+    "Tailored packages align with operations and budget.": "نقدّم باقات تأمينية مصممة لتتوافق مع طبيعة أعمالكم وميزانيتكم.",
     "Ongoing Policy & Claims Support": "دعم مستمر للوثائق والمطالبات",
     "Dedicated support for renewals, claims, and adjustments throughout the year.": "نوفّر دعمًا مخصصاً للتجديدات، والمطالبات، والتعديلات طوال العام.",
+    "Dedicated help for renewals, claims, and changes.": "نوفّر دعمًا مخصصاً للتجديدات، والمطالبات، والتعديلات طوال العام.",
     "Compliance": "الامتثال",
     "Regulatory Compliance & Governance": "الامتثال التنظيمي والحوكمة",
     "Built for Corporates, Semi-Government & Government": "مصمّم للشركات والجهات شبه الحكومية والحكومية",
@@ -211,7 +218,8 @@
       "Logistics and aviation insurance": "تأمين اللوجستيات والطيران",
       "Compliance insurance protection on a digital interface": "حماية الامتثال التأميني عبر واجهة رقمية",
       "Insurance consultation with digital protection icons": "استشارة تأمينية مع رموز حماية رقمية",
-      "Cloud Insurance Broker": "كلاود لوساطة التأمين"
+      "Cloud Insurance Broker": "كلاود لوساطة التأمين",
+      "LinkedIn": "لينكدإن"
     };
 
     document.querySelectorAll("[alt], [aria-label]").forEach((element) => {

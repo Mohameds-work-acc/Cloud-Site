@@ -405,6 +405,17 @@ body {
     linear-gradient(112deg, rgba(73, 30, 83, 0.94), rgba(129, 45, 145, 0.93));
 }
 
+@media (min-width: 768px) {
+  #why-us .why-card-title {
+    min-height: 7rem;
+  }
+
+  #why-us .why-card-copy {
+    align-self: start;
+  }
+
+}
+
 .faq-row {
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(141, 51, 166, 0.12);
