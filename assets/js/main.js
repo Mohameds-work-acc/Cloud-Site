@@ -238,6 +238,25 @@
     });
   }
 
+  function initSamePageNavigation() {
+    document.querySelectorAll('a[href^="#"]').forEach((link) => {
+      link.addEventListener("click", (event) => {
+        const hash = link.getAttribute("href");
+        if (!hash || hash === "#") return;
+
+        const target = document.querySelector(hash);
+        if (!target) return;
+
+        event.preventDefault();
+        target.scrollIntoView({
+          behavior: reduceMotion ? "auto" : "smooth",
+          block: "start",
+        });
+        window.history.pushState(null, "", `${window.location.pathname}${window.location.search}${hash}`);
+      });
+    });
+  }
+
   function prepareCounters() {
     const statMap = [
       { text: "21+", value: "21", suffix: "+" },
@@ -256,6 +275,7 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     initIcons();
+    initSamePageNavigation();
     initPremiumMotionLayer();
     initScrollProgress();
     prepareCounters();
