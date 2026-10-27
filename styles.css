@@ -496,14 +496,15 @@ body {
   margin-bottom: 1.25rem;
 }
 
-.footer-section a {
+.footer-section a,
+.footer-service {
   color: rgba(255, 255, 255, 0.78);
   display: block;
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.95;
   transition: color 0.2s ease, transform 0.2s ease;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 .footer-section a:hover {
